@@ -1,4 +1,21 @@
-// Array of Gmail addresses
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auto Subscribe</title>
+</head>
+<body>
+
+<h1>Auto Subscribe</h1>
+
+<button onclick="subscribe()">Subscribe All</button>
+
+<script>
+
+
+function subscribe() {
+  // Array of Gmail addresses
 var gmailAccounts = ["reenapatidarvp@gmail.com"];
 
 // YouTube channel link
@@ -12,3 +29,9 @@ gmailAccounts.forEach(function(gmail) {
   // Open the subscription link in a new tab
   window.open(subscriptionLink);
 });
+}
+</script>
+
+</body>
+</html>
+  
